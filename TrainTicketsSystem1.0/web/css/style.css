@@ -1,0 +1,84 @@
+/*用作大图轮播的css代码*/
+.pic{
+	width: 1490px;
+	height: 758px;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+
+	padding: 0;
+
+}
+.content{
+	width: 99999px;  /*能够储存较多的图片*/
+	height: 340px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+}
+.content img{
+	float: left;
+}
+.index{
+	position: absolute;
+	left: 700px;
+	bottom: 5px;
+	width: 200px;
+	height: 20px;
+	list-style: none;
+}
+.index li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+	background-color: rgba(100,100,100,0.3);
+}
+
+.left{
+	width: 30px;
+	height:50px;
+	background-color:rgba(100,100,100,0.5);
+	position: absolute;
+	left: 0px;
+	top: 350px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	display: none;/*初识时不显示*/
+
+}
+.right{
+	width: 30px;
+	height:50px;
+	background-color:rgba(100,100,100,0.5);
+	position: absolute;
+	right: 0px;
+	top: 350px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	display: none;/*初识时不显示*/
+}
+.index .first{
+	background-color: red;
+}
+.footer-txt{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	bottom: 0;
+
+	text-align: center;
+	height: 32px;
+	/*background-color: rgb(128,138,135);*/
+	background-color: #3385cc;
+	font-family: "Courier New";
+	font-size: 18px;
+	width: 100%;
+
+}
