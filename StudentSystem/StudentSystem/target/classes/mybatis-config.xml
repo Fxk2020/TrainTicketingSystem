@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    &lt;!&ndash; 运行环境配置 &ndash;&gt;-->
+<!--    &lt;!&ndash;default属性：指定使用哪一个运行环境  &ndash;&gt;-->
+<!--    <environments default="development">-->
+<!--        &lt;!&ndash;id属性：唯一标识一个运行环境  &ndash;&gt;-->
+<!--        <environment id="development">-->
+<!--            &lt;!&ndash; 事务管理器配置，type="JDBC"：mybatis框架默认使用jdbc事务 &ndash;&gt;-->
+<!--            <transactionManager type="JDBC" />-->
+<!--            &lt;!&ndash;数据源配置，type="POOLED"：mybatis框架提供的连接池  &ndash;&gt;-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="com.mysql.jdbc.Driver" />-->
+<!--                <property name="url" value="jdbc:mysql://127.0.0.1:3306/TrainTicketSystem?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=Asia/Shanghai&amp;useSSL=false" />-->
+<!--                <property name="username" value="root" />-->
+<!--                <property name="password" value="Fxk199959" />-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+<!--    &lt;!&ndash; 加载映射文件 &ndash;&gt;-->
+<!--    <mappers>-->
+<!--        <mapper resource="com/fxk/dao/UserMapper.xml"/>-->
+<!--    </mappers>-->
+
+</configuration>

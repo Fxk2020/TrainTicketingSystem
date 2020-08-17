@@ -1,0 +1,47 @@
+.top_bg{
+    height: 130px;
+    box-shadow: 0 1px 5px #888;
+    background-color: #ffffff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=113, Color='#888888')";/*ie8,需和背景颜色共同使用,超出部分会隐藏*/
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    margin: 0;
+    padding: 0;
+}
+.top_line{
+    height: 20px;
+    width: 100%;
+    background-color: #3385cc;
+}
+.top_line p{
+    width: 1300px;
+    margin:0 auto;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+}
+.top_line p a{
+    float: right;
+}
+.top_line p a img{
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top:-2px;
+}
+.top_main{
+    width: 1300px;
+    margin:0 auto;
+    text-align: center;
+}
+.top_logo{
+    float: left;
+    max-width: 800px;
+    height: 70px;
+    margin-top: 15px;
+}
+.top_logo img{
+    width: 100%;
+    display: block;
+}
