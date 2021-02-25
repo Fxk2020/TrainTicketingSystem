@@ -1,0 +1,27 @@
+/*--------底部文字和图片的css代码------------*/
+
+.footer-txt{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+
+    text-align: center;
+    height: 32px;
+    /*background-color: rgb(128,138,135);*/
+    background-color: #3385cc;
+    font-family: "Courier New";
+    font-size: 18px;
+    width: 100%;
+
+}
+
+.footer-image{
+    text-align: center;
+    margin: 0;
+    bottom: 35px;
+    position: absolute;
+    /*left: 600px;*/
+    background-color: #F8F8F8;
+    width: 100%;
+}

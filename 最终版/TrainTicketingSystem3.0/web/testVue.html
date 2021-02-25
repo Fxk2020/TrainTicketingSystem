@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>快速入门</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+   <div id="app">
+       {{message}}<!--Vue的插值表达式-->
+
+       <!-- 三目运算符 -->
+       {{false? "OK" : "NO"}}
+       <!-- 算数运算 -->
+       {{number*100}}
+
+<!--  不支持变量的声明和判断语句     -->
+       <!--       {{var a = 1}}-->
+       <a href="javascript:;"   onclick="post(w)" >aaa</a>
+   </div>
+
+
+
+
+
+</body>
+<script>
+    //view model
+
+    //1.创建Vue对象
+    new Vue({
+        el:"#app",//由Vue接管id为app的区域
+        data:{
+            message:"Hello Vue!",
+            number:100
+        }
+    });
+
+    // 超链接改为post请求
+    function post(url, params) {
+        // 创建form表单
+        var temp = document.createElement('form')
+        temp.action = url
+        temp.method = 'post'
+        // 表单样式为隐藏
+        temp.style.display = 'none'
+        // 初始化表单内部的控件
+        for (var item in params) {
+            // 根据实际情况创建不同的标签元素
+            // 添加input标签
+            var opt = document.createElement('input')
+            // 类型为text
+            opt.type = 'text'
+            // 设置name属性
+            opt.name = item
+            // 设置value属性
+            opt.value = params[item]
+            temp.appendChild(opt)
+        }
+        document.body.appendChild(temp)
+        temp.submit()
+        return temp
+    }
+</script>
+
+</html>

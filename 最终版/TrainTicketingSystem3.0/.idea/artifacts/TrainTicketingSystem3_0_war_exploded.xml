@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TrainTicketingSystem3.0:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrainTicketingSystem3_0_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TrainTicketingSystem3.0/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TrainTicketingSystem3.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
